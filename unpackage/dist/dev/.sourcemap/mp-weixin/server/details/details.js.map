@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///F:/uniapp/shopping/bainianaolai/main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,oG;AACAA,UAAU,CAACC,gBAAD,CAAV,C","file":"server/details/details.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './server/details/details.vue'\ncreatePage(Page)"],"sourceRoot":""}

@@ -1,0 +1,257 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"scrollIndicator": "none", // 隐藏滚动条
+				"navigationBarTitleText": "百年奥莱",
+				//"navigationStyle":"custom",       // 微信小程序上要自定义导航栏时，先将默认的原生导航栏取消
+				"app-plus": { //  配置编译到 App 平台时的特定样式，
+					"titleNView": { // 导航栏
+						"buttons": [{ // 自定义按钮
+							"float": "left",
+							"fontSrc": "./static/iconfont.ttf",
+							"text": "\ue605"
+						}, {
+							"float": "right",
+							"fontSrc": "./static/iconfont.ttf",
+							"text": "\ue608"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"scrollIndicator": "none", // 隐藏滚动条
+					"titleNView": {
+						"searchInput": {
+							"align": "left",
+							"borderRadius": "15px",
+							"backgroundColor": "#F7F7F7",
+							"placeholder": "nick",
+							"placeholderColor": "#838383",
+							"disabled": true
+						}
+					}
+				}
+			}
+		}, {
+			"path": "pages/shopCart/shopCart",
+			"style": {
+				"app-plus": {
+					"titleNView": false,
+					"scrollIndicator": "none" // 隐藏滚动条
+				}
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"app-plus": {
+					"titleNView": false, // app上取消原生导航栏
+					"scrollIndicator": "none" // 隐藏滚动条
+				}
+			}
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"scrollIndicator": "none", // 隐藏滚动条
+					"titleNView": {
+						"searchInput": {
+							"autoFocus": true,
+							"align": "left",
+							"borderRadius": "15px",
+							"backgroundColor": "#F7F7F7",
+							"placeholder": "nick",
+							"placeholderColor": "#838383",
+							"disabled": false
+						},
+						"buttons": [{
+							"type": "none",
+							"float": "right",
+							"text": "搜索",
+							"fontSize": "16px",
+							"width": "50px"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/search-list/search-list",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"scrollIndicator": "none", // 隐藏滚动条
+					"titleNView": {
+						"searchInput": {
+							"align": "left",
+							"borderRadius": "15px",
+							"backgroundColor": "#F7F7F7",
+							"placeholder": "nick",
+							"placeholderColor": "#838383",
+							"disabled": true
+						},
+						"buttons": [{
+							"type": "none",
+							"float": "right",
+							"text": "筛选",
+							"fontSize": "16px",
+							"width": "50px"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/details/details",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"app-plus": {
+					"scrollIndicator": "none", // 隐藏滚动条
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [{
+								"type": "menu",
+								"width": "55px"
+							},
+							{
+								"type": "share"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/my-config/my-config",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"app-plus": {
+					"scrollIndicator": "none", // 隐藏滚动条
+					"titleNView": {
+						"buttons": [{
+							"type": "menu",
+							"float": "right"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/path-config/path-config",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"app-plus": {
+					"scrollIndicator": "none", // 隐藏滚动条
+					"titleNView": {
+						"buttons": [{
+							"type": "none",
+							"float": "right",
+							"text": "编辑",
+							"fontSize": "16px"
+						}]
+					}
+				}
+			}
+		}, {
+			"path": "pages/my-path-add/my-path-add",
+			"style": {
+				"navigationBarTitleText": "新增地址",
+				"app-plus": {
+					"scrollIndicator": "none", // 隐藏滚动条
+					"titleNView": {
+						"buttons": [{
+							"type": "none",
+							"float": "right",
+							"text": "保存",
+							"fontSize": "16px"
+						}]
+					}
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/my-order/my-order",
+            "style" : {
+				"navigationBarTitleText": "购买订单"
+			}
+        }
+        ,{
+            "path" : "pages/confirm-order/confirm-order",
+            "style" : {
+				"navigationBarTitleText": "确认订单"
+			}
+        }
+        ,{
+            "path" : "pages/payment/payment",
+            "style" : {
+				"app-plus": {
+					"titleNView": false,
+					"scrollIndicator": "none" // 隐藏滚动条
+				}
+			}
+        }
+        ,{
+            "path" : "pages/payment-success/payment-success",
+            "style" : {
+				"navigationBarTitleText": "支付结果"
+			}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"app-plus": {
+					"titleNView": false,
+					"scrollIndicator": "none" // 隐藏滚动条
+				}
+			}
+        }
+        ,{
+            "path" : "pages/login-tel/login-tel",
+            "style" : {
+				"navigationBarTitleText": "输入手机号"
+			}
+        }
+        ,{
+            "path" : "pages/login-code/login-code",
+            "style" : {
+				"navigationBarTitleText": "输入验证码"
+			}
+        }
+    ],
+	// "tabBar": {
+	// 	"color": "#636263",
+	// 	"selectedColor": "#636263",
+	// 	"borderStyle": "black",
+	// 	"backgroundColor": "#ffffff",
+	// 	"spacing": "8px",
+	// 	"list": [{
+	// 		"pagePath": "pages/index/index",
+	// 		"iconPath": "static/tabbar/index.png",
+	// 		"selectedIconPath": "static/tabbar/indexSelected.png",
+	// 		"text": "首页"
+	// 	}, {
+	// 		"pagePath": "pages/list/list",
+	// 		"iconPath": "static/tabbar/list.png",
+	// 		"selectedIconPath": "static/tabbar/listSelected.png",
+	// 		"text": "分类"
+	// 	}, {
+	// 		"pagePath": "pages/shopCart/shopCart",
+	// 		"iconPath": "static/tabbar/shop.png",
+	// 		"selectedIconPath": "static/tabbar/shopSelected.png",
+	// 		"text": "购物车"
+	// 	}, {
+	// 		"pagePath": "pages/my/my",
+	// 		"iconPath": "static/tabbar/my.png",
+	// 		"selectedIconPath": "static/tabbar/mySelected.png",
+	// 		"text": "我的"
+	// 	}]
+	// },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	}
+}

@@ -1,0 +1,19 @@
+
+.card.data-v-b95d7580{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin: 20rpx 0;
+	font-weight: bold;
+}
+.card-name.data-v-b95d7580{
+	padding: 0 20rpx;
+	font-size: 32rpx;
+}
+

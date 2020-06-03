@@ -1,0 +1,17 @@
+
+.superStar.data-v-11a86fbc{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.superStar-img.data-v-11a86fbc{
+	width: 25%;
+	height: 150rpx;
+	padding: 2rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+

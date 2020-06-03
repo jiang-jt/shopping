@@ -1,0 +1,15 @@
+/* 存放公共样式 */
+.f-color{
+	color:#636263;
+}
+/*选中字体颜色*/
+.f-active-color{
+	color:#49BDFB;
+}
+/*背景颜色*/
+.bg-color{
+	background-color: #42B7FB;
+}
+.bg-gray-color{
+	background-color: #E7E7E7;
+}

@@ -1,0 +1,31 @@
+
+.wx-nav.data-v-72addf96 {
+	height: 200rpx;
+	width: 100%;
+	line-height: 200rpx;
+	text-align: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.scroll-content.data-v-72addf96 {
+	width: 100%;
+	height: 80rpx;
+	white-space: nowrap;
+}
+.scroll-item.data-v-72addf96 {
+	display: inline-block;
+	font-size: 32rpx;
+	padding: 10rpx 30rpx;
+}
+.f-active-color.data-v-72addf96 {
+	padding: 10rpx 0;
+	border-bottom: 6rpx solid #49BDFB;
+}
+
